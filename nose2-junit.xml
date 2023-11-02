@@ -1,0 +1,575 @@
+<testsuite name="nose2-junit" errors="0" failures="0" skipped="0" tests="191" time="1.343">
+  <testcase timestamp="2022-12-07T00:14:12.121952" time="0.001914" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_multiple_files">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.123980" time="0.002210" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_multiple_files_and_number_flag">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.126262" time="0.001532" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_one_file">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.127850" time="0.001631" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_single_file_and_number_flag">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.129537" time="0.234485" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.364097" time="0.001440" classname="test.test_applications.test_cat.TestCat" name="test_cat_with_stdin_and_number_flag">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.365588" time="0.001498" classname="test.test_applications.test_cat.TestCat" name="test_cat_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.367202" time="0.000661" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_file_already_exists">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.367921" time="0.000433" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_file_not_found">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.368405" time="0.001152" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_files_exist_and_not_found_and_created">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.369616" time="0.000620" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_final_directory_0_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.370291" time="0.001417" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_final_directory_1_multiple_directories">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.371763" time="0.000657" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_no_directory_name_provided_0_no_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.372489" time="0.000538" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_no_directory_name_provided_1_one_flag_only">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.373088" time="0.000517" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_no_directory_name_provided_2_two_flags_only">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.373659" time="0.001275" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_parent_and_verbose_flag_0_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.375001" time="0.003373" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_parent_and_verbose_flag_1_multiple_directories">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.378446" time="0.001651" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_parent_flag_0_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.380167" time="0.003629" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_parent_flag_1_multiple_directories">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.383860" time="0.001586" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_sub_directories_0_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.385517" time="0.002176" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_sub_directories_1_multiple_directories">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.387805" time="0.000831" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_verbose_flag_0_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.388679" time="0.001364" classname="test.test_applications.test_mkdir.TestMkdir" name="test_mkdir_verbose_flag_1_multiple_directories">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.390175" time="0.001332" classname="test.test_applications.test_cut.TestHead" name="test_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.391591" time="0.001310" classname="test.test_applications.test_cut.TestHead" name="test_call_required_function_with_invalid_byte_order_0_no_byte_order">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.392979" time="0.000981" classname="test.test_applications.test_cut.TestHead" name="test_call_required_function_with_invalid_byte_order_1_char_a_in_byte_order">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.394028" time="0.001448" classname="test.test_applications.test_cut.TestHead" name="test_call_required_function_with_invalid_byte_order_2_double_comma">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.395551" time="0.001332" classname="test.test_applications.test_cut.TestHead" name="test_call_required_function_with_no_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.396947" time="0.001212" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_00_single_byte">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.398232" time="0.001126" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_01_multiple_single_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.399405" time="0.001134" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_02_out_of_range_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.400602" time="0.001092" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_03_single_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.401757" time="0.001005" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_04_multiple_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.402825" time="0.001387" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_05_mixed_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.404284" time="0.001720" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_06_overlapping_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.406080" time="0.001466" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_07_out_of_range_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.407632" time="0.002294" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_08_unsorted_single_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.410008" time="0.001411" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_09_unsorted_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.411660" time="0.002520" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_10_reversed_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.414260" time="0.001208" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_file_input_11_bytes_and_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.415536" time="0.000902" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_0_single_byte">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.416505" time="0.001028" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_1_multiple_single_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.417627" time="0.001453" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_2_out_of_range_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.419172" time="0.001393" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_3_single_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.420634" time="0.001489" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_4_multiple_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.422384" time="0.002109" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_5_out_of_range_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.424555" time="0.001140" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_6_unsorted_single_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.425767" time="0.001302" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_7_unsorted_byte_intervals">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.427144" time="0.001445" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_8_reversed_byte_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.428664" time="0.001307" classname="test.test_applications.test_cut.TestHead" name="test_cut_with_stdin_9_bytes_and_interval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.430060" time="0.001458" classname="test.test_applications.test_cut.TestHead" name="test_cut_without_num_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.431597" time="0.001315" classname="test.test_applications.test_cut.TestHead" name="test_cut_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.433012" time="0.001401" classname="test.test_applications.test_cut.TestHead" name="test_get_cut_str">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.434562" time="0.002393" classname="test.test_applications.test_tail.TestTail" name="test_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.437108" time="0.004220" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_files_and_stdin_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.441658" time="0.001991" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_file_input_0_zero_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.443754" time="0.002220" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_file_input_1_one_line">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.446064" time="0.001470" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_file_input_2_two_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.447600" time="0.001396" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_0_zeroLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.449068" time="0.001618" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_1_lessLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.450762" time="0.001331" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_2_moreLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.452173" time="0.001684" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_3_equalLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.453970" time="0.002805" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_4_newLineAtEndOfStr">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.456835" time="0.001806" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_num_of_lines_and_stdin_without_num_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.458786" time="0.002126" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_only_file_input_0_fileWithMoreThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.460986" time="0.004339" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_only_file_input_1_fileWithLessThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.465419" time="0.003450" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_only_stdin_0_fileWithMoreThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.468950" time="0.002156" classname="test.test_applications.test_tail.TestTail" name="test_tail_with_only_stdin_1_fileWithLessThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.471288" time="0.006967" classname="test.test_applications.test_wc.TestWc" name="test_wc_no_arguments_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.478570" time="0.002622" classname="test.test_applications.test_wc.TestWc" name="test_wc_no_flag_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.481272" time="0.062281" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_bytes_in_multiple_files">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.543755" time="0.007756" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_bytes_in_single_file">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.551664" time="0.002066" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_bytes_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.553822" time="0.054434" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_lines_in_multiple_files">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.609293" time="0.010334" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_lines_in_single_file">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.620201" time="0.002954" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_lines_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.623250" time="0.059478" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_words_in_multiple_files">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.682949" time="0.007685" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_words_in_single_file">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.690784" time="0.002029" classname="test.test_applications.test_wc.TestWc" name="test_wc_number_of_words_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.693263" time="0.004765" classname="test.test_applications.test_ls.TestLs" name="test_ls_current_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.698119" time="0.005458" classname="test.test_applications.test_ls.TestLs" name="test_ls_given_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.704425" time="0.005881" classname="test.test_applications.test_ls.TestLs" name="test_ls_multiple_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.710521" time="0.002461" classname="test.test_applications.test_grep.TestGrep" name="test_grep_file_input_0_one_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.713102" time="0.002722" classname="test.test_applications.test_grep.TestGrep" name="test_grep_file_input_1_multiple_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.715907" time="0.003280" classname="test.test_applications.test_grep.TestGrep" name="test_grep_invert_match_file_input_0_one_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.719288" time="0.004027" classname="test.test_applications.test_grep.TestGrep" name="test_grep_invert_match_file_input_1_multiple_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.723441" time="0.006200" classname="test.test_applications.test_grep.TestGrep" name="test_grep_invert_match_stdin_0_one_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.729817" time="0.003757" classname="test.test_applications.test_grep.TestGrep" name="test_grep_invert_match_stdin_1_multiple_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.733665" time="0.002411" classname="test.test_applications.test_grep.TestGrep" name="test_grep_no_files_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.736151" time="0.002077" classname="test.test_applications.test_grep.TestGrep" name="test_grep_no_pattern_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.738311" time="0.002404" classname="test.test_applications.test_grep.TestGrep" name="test_grep_no_pattern_provided_but_stdin_given">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.740791" time="0.002751" classname="test.test_applications.test_grep.TestGrep" name="test_grep_stdin_0_no_match_present">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.743617" time="0.004869" classname="test.test_applications.test_grep.TestGrep" name="test_grep_stdin_1_matches_present">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.748618" time="0.001131" classname="test.test_applications.test_sort.TestSort" name="test_sort_flag_not_present_on_correct_index">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.749808" time="0.001190" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_file_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.751116" time="0.001721" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_file_input_reverse">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.752951" time="0.001676" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_stdin_0_single_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.754705" time="0.000936" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_stdin_1_multiple_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.755714" time="0.001651" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_stdin_reverse_0_single_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.757478" time="0.003073" classname="test.test_applications.test_sort.TestSort" name="test_sort_for_stdin_reverse_1_multiple_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.760638" time="0.001436" classname="test.test_applications.test_sort.TestSort" name="test_sort_only_flag_present_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.762161" time="0.001172" classname="test.test_applications.test_sort.TestSort" name="test_sort_with_extra_arguments_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.763391" time="0.001207" classname="test.test_applications.test_sort.TestSort" name="test_sort_with_no_arguments_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.764768" time="0.006669" classname="test.test_applications.test_find.TestFind" name="test_find_flag_not_on_correct_index_0_argument_length_is_2">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.771687" time="0.010062" classname="test.test_applications.test_find.TestFind" name="test_find_flag_not_on_correct_index_1_argument_length_is_3">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.781834" time="0.005014" classname="test.test_applications.test_find.TestFind" name="test_find_flag_not_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.786909" time="0.007048" classname="test.test_applications.test_find.TestFind" name="test_find_when_path_not_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.794101" time="0.008177" classname="test.test_applications.test_find.TestFind" name="test_find_when_path_provided_0_inside_single_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.802355" time="0.004523" classname="test.test_applications.test_find.TestFind" name="test_find_when_path_provided_1_inside_directory_tree">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.806948" time="0.007605" classname="test.test_applications.test_find.TestFind" name="test_find_wrong_number_of_arguments_0_less_than_2_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.814635" time="0.007342" classname="test.test_applications.test_find.TestFind" name="test_find_wrong_number_of_arguments_1_more_than_3_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.822346" time="0.000601" classname="test.test_applications.test_application_factory.TestApplicationFactory" name="test_application_factory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.823109" time="0.000363" classname="test.test_applications.test_application_factory.TestApplicationFactory" name="test_application_factory_unsafe_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.823554" time="0.002095" classname="test.test_applications.test_application_factory.TestApplicationFactory" name="test_application_factory_unsupported_application_0_unsupported_app">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.825756" time="0.000253" classname="test.test_applications.test_application_factory.TestApplicationFactory" name="test_application_factory_unsupported_application_1_unsupported_unsafe_app">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.826185" time="0.004426" classname="test.test_applications.test_head.TestHead" name="test_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.830724" time="0.002450" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_files_and_stdin_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.833259" time="0.002220" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_file_input_0_zero_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.835584" time="0.002301" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_file_input_1_one_line">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.837973" time="0.005451" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_file_input_2_two_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.843552" time="0.003464" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_0_zeroLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.847096" time="0.002209" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_1_lessLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.849524" time="0.001921" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_2_moreLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.851520" time="0.001458" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_3_equalLinesInArgs">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.853053" time="0.001187" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_4_newLineAtEndOfStr">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.854308" time="0.001707" classname="test.test_applications.test_head.TestHead" name="test_head_with_num_of_lines_and_stdin_without_num_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.856071" time="0.001854" classname="test.test_applications.test_head.TestHead" name="test_head_with_only_file_input_0_fileWithMoreThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.858021" time="0.011720" classname="test.test_applications.test_head.TestHead" name="test_head_with_only_file_input_1_fileWithLessThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.869834" time="0.003524" classname="test.test_applications.test_head.TestHead" name="test_head_with_only_stdin_0_fileWithMoreThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.873437" time="0.002230" classname="test.test_applications.test_head.TestHead" name="test_head_with_only_stdin_1_fileWithLessThan10Lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.875939" time="0.003630" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_flag_given_but_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.879662" time="0.002328" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_no_arguments_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.882112" time="0.002286" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_with_flag_file_input_0_duplicate_adjacent_lines_available">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.884565" time="0.001917" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_with_flag_file_input_1_no_duplicate_adjacent_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.886567" time="0.005836" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_with_flag_stdin_0_single_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.892517" time="0.003673" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_with_flag_stdin_1_multiple_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.896266" time="0.002440" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_without_flag_file_input_0_duplicate_adjacent_lines_available">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.898962" time="0.002306" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_without_flag_file_input_1_no_duplicate_adjacent_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.901347" time="0.001217" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_without_flag_stdin_0_single_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.902632" time="0.001514" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_without_flag_stdin_1_multiple_line_input">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.904212" time="0.001157" classname="test.test_applications.test_uniq.TestUniq" name="test_uniq_wrong_number_of_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.905486" time="0.000157" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_find_flag_not_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.905695" time="0.000155" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_head_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.905900" time="0.000164" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_head_with_num_of_lines_and_stdin_without_num_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.906153" time="0.000171" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.906377" time="0.000160" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_call_required_function_with_no_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.906589" time="0.000170" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_cd_multiple_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.906809" time="0.000243" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_cut_without_num_bytes">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.907152" time="0.000268" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_cut_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.907479" time="0.000123" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_head_with_num_of_files_and_stdin_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.907638" time="0.000094" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_tail_call_required_function_with_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.907764" time="0.000126" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_tail_with_num_of_files_and_stdin_without_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.907976" time="0.000178" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_tail_with_num_of_lines_and_stdin_without_num_lines">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.908209" time="0.000157" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_uniq_flag_given_but_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.908412" time="0.000130" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_uniq_no_arguments_no_stdin">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.908592" time="0.000154" classname="test.test_applications.test_unsafedecorator.TestUnsafeDecorator" name="test_unsafe_uniq_wrong_number_of_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.908825" time="0.000418" classname="test.test_applications.test_pwd.TestPwd" name="test_pwd_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.909365" time="0.002663" classname="test.test_applications.test_cd.TestCd" name="test_cd_directory_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.912218" time="0.003094" classname="test.test_applications.test_cd.TestCd" name="test_cd_home_directory">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.915402" time="0.001164" classname="test.test_applications.test_cd.TestCd" name="test_cd_multiple_arguments">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:12.916677" time="0.208880" classname="test.test_applications.test_echo.TestEcho" name="test_echo_arguments_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.125620" time="0.222714" classname="test.test_applications.test_echo.TestEcho" name="test_echo_flag_arguments_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.348385" time="0.000095" classname="test.test_applications.test_echo.TestEcho" name="test_echo_flag_no_argument_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.348511" time="0.000065" classname="test.test_applications.test_echo.TestEcho" name="test_echo_no_argument_provided">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.348649" time="0.011971" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_back_quote_in_double_quote">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.360713" time="0.003925" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_back_quote_in_single_quote">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.364713" time="0.002597" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_call_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.367393" time="0.002450" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_double_quoted">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.369921" time="0.004570" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_globbing">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.374617" time="0.004257" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_input_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.378951" time="0.004036" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_multiple_inputs_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.383057" time="0.005871" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_multiple_outputs_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.389002" time="0.004113" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_nested_pipe_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.393281" time="0.008216" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_nested_seq_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.401576" time="0.004173" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_one_pipe_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.405829" time="0.003651" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_output_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.409562" time="0.008542" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_parse_cancellation_exception">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.418178" time="0.005803" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_seq_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.424134" time="0.002890" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_single_quote_disabled_globbing">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.427099" time="0.003142" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_single_quoted">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.430321" time="0.008180" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_start_with_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.438592" time="0.002662" classname="test.test_shell_commands.test_command_visitor.TestCommandVisitor" name="test_visitor_unquoted">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.441659" time="0.003893" classname="test.test_shell_commands.test_seq.TestSeq" name="test_seq_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.445663" time="0.003710" classname="test.test_shell_commands.test_pipe.TestPipe" name="test_pipe_command">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.449579" time="0.003880" classname="test.test_shell_commands.test_call.TestCall" name="test_call_input_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.453539" time="0.002491" classname="test.test_shell_commands.test_call.TestCall" name="test_call_no_redirections">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.456095" time="0.005835" classname="test.test_shell_commands.test_call.TestCall" name="test_call_output_redirection">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.462085" time="0.000957" classname="test.test_shell.TestShell" name="test_shell_eval">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.463088" time="0.000129" classname="test.test_shell.TestShell" name="test_shell_non_interactive_extra_args">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.463249" time="0.000090" classname="test.test_shell.TestShell" name="test_shell_non_interactive_invalid_flag">
+    <system-out />
+  </testcase>
+  <testcase timestamp="2022-12-07T00:14:13.463366" time="0.001472" classname="test.test_shell.TestShell" name="test_shell_non_interactive_mode">
+    <system-out />
+  </testcase>
+</testsuite>
